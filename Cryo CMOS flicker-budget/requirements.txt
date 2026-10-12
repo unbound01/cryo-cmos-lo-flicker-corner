@@ -1,0 +1,4 @@
+numpy
+scipy
+matplotlib
+opencv-python   # only needed for scripts/digitize_patra_figs.py (which also needs poppler's pdftoppm)

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+# never commit the papers or overlays that reproduce their figures
+*.pdf
+overlay*.png
+*_overlay*.png
+# derived from figures of a copyrighted paper: generate locally, do not publish (see data/README.md)
+data/patra_digitized.json
+figures/patra_fit.png
